@@ -10,7 +10,7 @@ bool stroka(string const& s)
 int main()
 {
     string s, word;
-    cout << "Ââåäèòå ñòðîêó\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ\n";
     getline(cin, s);
     stringstream str(s);
     while (str >> word)
