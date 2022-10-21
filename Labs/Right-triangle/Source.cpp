@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	int n;
-	cout << "Ââåäèòå ðàçìåð êàòåòà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÐºÐ°Ñ‚ÐµÑ‚Ð°: ";
 	cin >> n;
 	int p = n - 1;
 	int z = 1;
