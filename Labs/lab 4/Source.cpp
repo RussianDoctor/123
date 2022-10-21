@@ -11,9 +11,9 @@ int main()
     for (int h = 0; h < 100; h++) {
         cout << mas[h] << " ";
     }
-    cout <<"\n Äëèíà ìàññèâà ";
+    cout <<"\n Ð”Ð»Ð¸Ð½Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° ";
     cin >> leight;
-    cout << endl << "Óäàëèòü íîìåð " << endl;
+    cout << endl << "Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€" << endl;
     cin >> b;
     for (int i = 0; i < leight; i++)
     {
@@ -26,7 +26,7 @@ int main()
 
         }
     }
-    cout << "Íàïèøèòå ðàçìåð ñìåùåíèÿ:";
+    cout << "ÐÐ°Ð¿Ð¸ÑˆÐ¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÑÐ¼ÐµÑ‰ÐµÐ½Ð¸Ñ:";
     cin >> smesh;
     for (int l = 0; l < smesh; l++) {
         mas[l] = mas[l + 1];
