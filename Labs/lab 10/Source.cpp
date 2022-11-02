@@ -7,10 +7,10 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	srand(unsigned(time(NULL)));
 	int N, M;
-	cout << "Ââåäèòå ğàçìåğ äâóìåğíîãî ìàññèâà." << endl;
-	cout << "Ñòğîêè: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ€Ğ°Ğ·Ğ¼ĞµÑ€ Ğ´Ğ²ÑƒĞ¼ĞµÑ€Ğ½Ğ¾Ğ³Ğ¾ Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ°." << endl;
+	cout << "Ğ¡Ñ‚Ñ€Ğ¾ĞºĞ¸: ";
 	cin >> N;
-	cout << "Ñòîëáöû: ";
+	cout << "Ğ¡Ñ‚Ğ¾Ğ»Ğ±Ñ†Ñ‹: ";
 	cin >> M;
 	int** A = new int* [N];
 	int* K = new int[N];
@@ -23,7 +23,7 @@ int main()
 			A[i][j] = ((rand() % 10));
 		K[i] = rand() % 10;
 	}
-	cout << endl << "Ïîëó÷åííàÿ ìàòğèöà:" << endl << endl;
+	cout << endl << "ĞŸĞ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ½Ğ°Ñ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†Ğ°:" << endl << endl;
 	for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < M; j++)
@@ -31,12 +31,12 @@ int main()
 		cout << endl;
 	}
 	int num;
-	cout << endl << "Ââåäèòå íîìåğ äëÿ âñòàâêè ñòîëáöà: ";
+	cout << endl << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ¾Ğ¼ĞµÑ€ Ğ´Ğ»Ñ Ğ²ÑÑ‚Ğ°Ğ²ĞºĞ¸ ÑÑ‚Ğ¾Ğ»Ğ±Ñ†Ğ°: ";
 	cin >> num;
-	if (num > M + 1 || num == 0) cout<< "Íåêîğğåêòíîå çíà÷åíèå\n";
+	if (num > M + 1 || num == 0) cout<< "ĞĞµĞºĞ¾Ñ€Ñ€ĞµĞºÑ‚Ğ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ\n";
 	else {
 
-		cout << "Íîâàÿ ìàòğèöà:" << endl;
+		cout << "ĞĞ¾Ğ²Ğ°Ñ Ğ¼Ğ°Ñ‚Ñ€Ğ¸Ñ†Ğ°:" << endl;
 		for (int i = 0; i < N; i++)
 		{
 			for (int j = 0; j < M; j++)
