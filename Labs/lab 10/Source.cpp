@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    setlocale(0, "");
+    setlocale(LC_ALL, "RUS");
     srand(unsigned(time(NULL)));
     int N, M;
-    cout << "Ââåäèòå ðàçìåð äâóìåðíîãî ìàññèâà." << endl;
-    cout << "Ñòðîêè: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð°." << endl;
+    cout << "Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸: ";
     cin >> N;
-    cout << "Ñòîëáöû: ";
+    cout << "Ð¡Ñ‚Ð¾Ð»Ð±Ñ†Ñ‹: ";
     cin >> M;
     int** A = new int* [N];
     for (int i = 0; i < N; i++)
@@ -19,7 +19,7 @@ int main()
     for (int i = 0; i < N; i++)
         for (int j = 0; j < M; j++)
             A[i][j] = ((rand() % 10));
-    cout << endl << "Ïîëó÷åííàÿ ìàòðèöà:" << endl << endl;
+    cout << endl << "ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð½Ð°Ñ Ð¼Ð°Ñ‚Ñ€Ð¸Ñ†Ð°:" << endl << endl;
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < M; j++)
@@ -27,7 +27,7 @@ int main()
         cout << endl;
     }
     int num;
-    cout << endl << "Ââåäèòå íîìåð äëÿ âñòàâêè ñòîëáöà: ";
+    cout << endl << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð´Ð»Ñ Ð²ÑÑ‚Ð°Ð²ÐºÐ¸ ÑÑ‚Ð¾Ð»Ð±Ñ†Ð°: ";
     cin >> num;
     for (int i = 0; i < N; i++)
     {
