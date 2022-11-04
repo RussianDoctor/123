@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "rus");
 	int s = 1;
-	cout << "Ââåäèòå êàòåò s, áîëüøèé ÷åì 0" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ°Ñ‚ÐµÑ‚ s, Ð±Ð¾Ð»ÑŒÑˆÐ¸Ð¹ Ñ‡ÐµÐ¼ 0" << endl;
 	while (s != 0)
 	{
 		cin >> s;
