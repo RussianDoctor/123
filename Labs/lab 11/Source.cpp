@@ -67,17 +67,17 @@ void main()
     Head = NULL;
     LastNode = NULL;
 
-    cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²\n";
     cin >> k;
 
 
-    cout << "Ââåäèòå ñïèñîê \n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¿Ð¸ÑÐ¾Ðº \n";
     for (int i = 0; i < k; i++)
     {
         cin >> n;
         Add(n, Head, LastNode);
     }
-    cout << "Äàííûé ñïèñîê: ";
+    cout << "Ð”Ð°Ð½Ð½Ñ‹Ð¹ ÑÐ¿Ð¸ÑÐ¾Ðº: ";
     Show(Head);
     cout << endl;
 
@@ -86,7 +86,7 @@ void main()
 
     while (x > k || x <= 0)
     {
-        cout << "Ââåäèòå íîìåð îò 1 äî " << k << endl;
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¾Ñ‚ 1 Ð´Ð¾ " << k << endl;
         cin >> x;
     }
     PNode q = Head;
@@ -95,17 +95,17 @@ void main()
     DeleteNode(Head, q);
     Show(Head);
 
-    cout << "\nÂâåäèòå íîìåð, ÷òîáû äîáàâèòü ýëåìåíò \n";
+    cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ \n";
     int y = -1;
 
     while (y > k || y <= 0)
     {
-        cout << "Ââåäèòå íîìåð îò 1 äî " << k << endl;
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¾Ñ‚ 1 Ð´Ð¾ " << k << endl;
         cin >> y;
     }
     PNode NewNode = new Node;
     int g;
-    cout << "Ââåäèòå çíà÷åíèå\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ\n";
     cin >> g;
     q = Head;
     if (y - 2 < 0)
